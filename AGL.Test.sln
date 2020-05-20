@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{634091C1-3A45-42F1-84DB-93EDC339C347}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3C58BB8D-D9EB-4E8E-A9DE-36A515D399C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGLCode.Test.Tests", "AGL.Test.Tests\AGLCode.Test.Tests.csproj", "{42F0C748-F1DC-4F0D-99E7-73FD851CD8B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGLCodeTest.Service", "AGLTest.Service\AGLCodeTest.Service.csproj", "{0AF7CCF0-2BBD-4638-B1FF-7E02A6A4EAAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGLCodeTest.CQRS", "AGLTest.CQRS\AGLCodeTest.CQRS.csproj", "{104A3BD9-A0AE-42D6-8ECA-EAA8829B72FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGLCodeTest.Common", "AGLTest.Common\AGLCodeTest.Common.csproj", "{D19162AD-A619-4F6A-B678-34FB97F0C602}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGLCodeTestCoreAPI", "AGLTest.API\AGLCodeTestCoreAPI.csproj", "{DCB8BA89-FEAE-4317-AB25-6037DBAB4D28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "console", "console", "{C4ABDA64-255C-4A54-88E8-C34BF66E2F5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F0C748-F1DC-4F0D-99E7-73FD851CD8B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F0C748-F1DC-4F0D-99E7-73FD851CD8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F0C748-F1DC-4F0D-99E7-73FD851CD8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F0C748-F1DC-4F0D-99E7-73FD851CD8B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF7CCF0-2BBD-4638-B1FF-7E02A6A4EAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF7CCF0-2BBD-4638-B1FF-7E02A6A4EAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF7CCF0-2BBD-4638-B1FF-7E02A6A4EAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF7CCF0-2BBD-4638-B1FF-7E02A6A4EAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104A3BD9-A0AE-42D6-8ECA-EAA8829B72FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104A3BD9-A0AE-42D6-8ECA-EAA8829B72FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104A3BD9-A0AE-42D6-8ECA-EAA8829B72FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104A3BD9-A0AE-42D6-8ECA-EAA8829B72FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19162AD-A619-4F6A-B678-34FB97F0C602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19162AD-A619-4F6A-B678-34FB97F0C602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19162AD-A619-4F6A-B678-34FB97F0C602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19162AD-A619-4F6A-B678-34FB97F0C602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB8BA89-FEAE-4317-AB25-6037DBAB4D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB8BA89-FEAE-4317-AB25-6037DBAB4D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB8BA89-FEAE-4317-AB25-6037DBAB4D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB8BA89-FEAE-4317-AB25-6037DBAB4D28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42F0C748-F1DC-4F0D-99E7-73FD851CD8B1} = {3C58BB8D-D9EB-4E8E-A9DE-36A515D399C2}
+		{0AF7CCF0-2BBD-4638-B1FF-7E02A6A4EAAA} = {634091C1-3A45-42F1-84DB-93EDC339C347}
+		{104A3BD9-A0AE-42D6-8ECA-EAA8829B72FA} = {634091C1-3A45-42F1-84DB-93EDC339C347}
+		{D19162AD-A619-4F6A-B678-34FB97F0C602} = {634091C1-3A45-42F1-84DB-93EDC339C347}
+		{DCB8BA89-FEAE-4317-AB25-6037DBAB4D28} = {634091C1-3A45-42F1-84DB-93EDC339C347}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {446130E5-E236-4958-9CB7-BEDEF1B93462}
+	EndGlobalSection
+EndGlobal
